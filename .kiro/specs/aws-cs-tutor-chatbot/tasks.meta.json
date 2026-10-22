@@ -1,0 +1,292 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Configurar estrutura do projeto e dependências": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606310674
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606323811
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606424748
+      }
+    ],
+    "2.1 Definir constantes de módulo e exceções de domínio no `app.py`": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606310868
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606429521
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606496906
+      }
+    ],
+    "2.2 Definir a constante `SYSTEM_PROMPT` com a persona do Bot_Tutor": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606310948
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606497867
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606538929
+      }
+    ],
+    "3.1 Implementar a função de verificação das variáveis de ambiente de credenciais": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606311011
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606539950
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606585250
+      }
+    ],
+    "4.1 Instanciar a aplicação Flask e o cliente Bedrock no escopo de módulo": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606311079
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606657977
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606693553
+      }
+    ],
+    "5.1 Implementar a função `extrair_texto`": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606311144
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606584257
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606656931
+      }
+    ],
+    "5.3 Implementar a função `gerar_resposta` (wrapper do Bedrock)": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606311207
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606708638
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606751987
+      }
+    ],
+    "6. Checkpoint - Garantir que os testes passem": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606311269
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606995459
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792607103055
+      }
+    ],
+    "7.1 Implementar a validação de entrada da rota `/chat`": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606311334
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606845818
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606936352
+      }
+    ],
+    "7.2 Implementar o fluxo de sucesso e o tratamento de erros de serviço da rota `/chat`": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606311394
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606850236
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606937588
+      }
+    ],
+    "8.1 Implementar a rota `/` que renderiza a página de chat": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606311457
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606752990
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606844835
+      }
+    ],
+    "8.2 Criar `templates/index.html` com a interface de chat": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606311540
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606324612
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606425563
+      }
+    ],
+    "9.1 Implementar o bloco de execução `__main__`": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606311595
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606940361
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606991407
+      }
+    ],
+    "10. Checkpoint final - Garantir que todos os testes passem": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606311662
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606996423
+      },
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792607103792
+      }
+    ],
+    "2. Definir constantes, exceções de domínio e persona": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606538987
+      }
+    ],
+    "3. Implementar a checagem de credenciais na inicialização": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606585313
+      }
+    ],
+    "4. Configurar a aplicação Flask e o cliente Bedrock": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606693625
+      }
+    ],
+    "5. Implementar a camada de integração com o Bedrock": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606752049
+      }
+    ],
+    "8. Implementar a rota `/` (GET) e o frontend": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606844922
+      }
+    ],
+    "7. Implementar a rota `/chat` (POST) com validação e tratamento de erros": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606937655
+      }
+    ],
+    "9. Integrar e finalizar a execução da aplicação": [
+      {
+        "executionId": "b5e67956-a6b2-4aa5-8873-8934cedbfc93",
+        "chatSessionId": "sess_0a02924c-56c7-4aff-9d58-a3a81989b7cc",
+        "timestamp": 1792606991471
+      }
+    ]
+  }
+}
